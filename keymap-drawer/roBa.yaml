@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - A
+  - {t: A, h: LCTRL}
   - S
   - D
   - F
@@ -34,10 +34,10 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: /, h: ARROW}
   - LCTRL
-  - LEFT WIN
   - LEFT ALT
+  - LEFT WIN
   - {t: '&to_layer_0 INT_HENKAN', h: '6'}
   - {t: SPACE, h: NUM}
   - {t: '&to_layer_0 INT_MUHENKAN', h: ARROW}
@@ -111,7 +111,7 @@ layers:
   - '#'
   - $
   - '%'
-  - {t: KP 0, h: LEFT SHIFT}
+  - LEFT SHIFT
   - KP 1
   - KP 2
   - KP 3
@@ -125,7 +125,7 @@ layers:
   - \
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP 0
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
@@ -140,7 +140,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - HOME
@@ -151,9 +151,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
   - {t: ▽, type: trans}
   - LEFT SHIFT
   - Gui+Sft+LEFT ARROW
@@ -166,13 +166,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - LCTRL
+  - LEFT ALT
+  - LEFT WIN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,28 +265,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '6':
+  - Gui+`
+  - Alt+1
+  - Alt+2
+  - Alt+3
+  - Alt+4
+  - Alt+5
+  - Alt+6
+  - Alt+7
+  - Alt+8
+  - Alt+9
+  - {t: ▽, type: trans}
+  - Alt+Sft+1
+  - Alt+Sft+2
+  - Alt+Sft+3
+  - Alt+Sft+4
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+Sft+5
+  - Alt+Sft+6
+  - Alt+Sft+7
+  - Alt+Sft+8
+  - Alt+Sft+9
   - {t: ▽, type: trans}
   - '1'
   - '2'
@@ -295,9 +295,9 @@ layers:
   - {t: ▽, type: trans}
   - '&bootloader'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: BT, h: '0'}
+  - {t: BT, h: '1'}
+  - {t: BT, h: '2'}
   - BT CLR
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -309,12 +309,8 @@ layers:
   - {t: ▽, type: trans}
   - BT CLR ALL
 combos:
-- p: [11, 12]
+- p: [10, 11]
   k: TAB
-- p: [12, 13]
-  k: Sft+TAB
-- p: [11, 10]
-  k: '&to_layer_0 INT_MUHENKAN'
 - p: [20, 21]
   k: '"'
 - p: [24, 25]
